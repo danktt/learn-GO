@@ -3,5 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+
+	x := 10
+	y := "User name"
+
+
+	fmt.Printf("%v %T \n", x, x)
+	fmt.Printf("%v %T \n", y, y)
+
+	_, error := fmt.Println("Hello, GO!! ")
+		fmt.Println( error)
 }
